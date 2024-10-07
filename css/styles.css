@@ -1,0 +1,132 @@
+/*------------------------------------------------FUENTES--------------------------------------------------------*/
+
+@font-face{
+    font-family: 'GMX-Regular';
+    src: url('../fonts/GMX/GMX-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src:url('../fonts/Montserrat/Montserrat-Regular.ttf')
+
+}
+
+/*------------------------------------------------HEADER--------------------------------------------------------*/
+
+.hcontainer {
+    background-color: #666666;
+    color: #FFF;
+}
+
+.logocolors-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    align-items: center;
+}
+
+.logoheader-gob{
+    width: 49px;
+    height: 50px;
+}
+
+.honestidad-text {
+    text-align: center;
+    font-size: calc(1vw + 1rem); /* Tamaño dinámico */
+    font-family: 'GMX-Regular', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px; /* Espaciado entre letras */
+    color: #ffffff; /* Blanco */
+}
+
+.honestidadsub-text {
+    text-align: center;
+    font-size: 0.5rem;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+    color: #ffffff; /* Blanco */
+    line-height: 1px;
+}
+
+/*------------------------------------------------BARRA GRECA--------------------------------------------------------*/
+
+.barra-greca {
+    background-image: url('./css/headerb.png');
+    background-repeat: repeat-x;
+    background-size: auto 25px; /* Ajusta la altura a 25px y permite el ancho automático */
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------------------FOOTER--------------------------------------------------------*/
+
+/*CONTENEDOR PRINCIPAL DEL FOOTER*/
+div.fcontainer {
+    background-color: #000;
+    color: #FFF;
+    overflow: hidden;
+}
+
+/*BOTONES DE HIPERVÍNCULOS A REDES SOCIALES*/
+.btn-iconrs {
+    border: none;
+    background-color: #B17F4A;
+    border-color: #B17F4A;
+    color: #FFFFFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/*LOGO BLANCO - GOBIERNO DEL ESTADO - FOOTER*/
+.img-iconwhite {
+    width: 48px; /* Ajustar el tamaño de la imagen */
+    height: auto;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+
+.logowhite-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 15px;
+}
+
+.textwhite-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.oaxaca-text {
+    text-align: center;
+    font-size: calc(1vw + 1rem); /* Tamaño dinámico */
+    font-family: 'GMX-Regular', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px; /* Espaciado entre letras */
+    color: #ffffff; /* Blanco */
+}
+
+.gobierno-text {
+    text-align: center;
+    font-size: 0.5rem;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+    color: #ffffff; /* Blanco */
+    line-height: 1px;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+
+
+
+
