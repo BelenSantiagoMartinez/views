@@ -13,6 +13,10 @@
 
 /*------------------------------------------------HEADER--------------------------------------------------------*/
 
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
 .hcontainer {
     background-color: #666666;
     color: #FFF;
