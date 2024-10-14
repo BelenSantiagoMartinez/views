@@ -16,7 +16,9 @@
 html,body{
     width: 100%;
     overflow-x: hidden;
+    background-image: url('backgroundlogos.svg'); 
 }
+
 .hcontainer {
     background-color: #666666;
     color: #FFF;
@@ -86,6 +88,12 @@ html,body{
     object-fit: cover;
     background: center;
     opacity: .9;
+}
+
+/*------------------------------------------------BODY----------------------------------------------------------*/
+
+.background {
+    background-image: url('/css/backgroundlogos.svg');
 }
 
 /*------------------------------------------------FOOTER--------------------------------------------------------*/
